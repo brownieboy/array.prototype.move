@@ -1,3 +1,9 @@
+# Package not supported
+I'm no longer supporting this package. Modifying the Array prototype was never a good way of doing this, in retrospective.
+
+I recommend that you check out https://github.com/sindresorhus/array-move, which doesn't modify the Array prototype, and gives you TypeScript support too.
+
+
 # Array.protoype.move
 
 Array method to move an element of that array from one index to another.  Extends the Array.prototype to add the move method.  It will check for an existing move method first.
