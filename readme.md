@@ -1,15 +1,15 @@
-#Array.protoype.move
+# Array.protoype.move
 
 Array method to move an element of that array from one index to another.  Extends the Array.prototype to add the move method.  It will check for an existing move method first.
 
 
-##Installation
+## Installation
 Install from npm, like so:
 
     npm install array.prototype.move --save
 
 
-##Importing
+## Importing
 Simply require or import the file.  There's no function exported, so no variable to assign to on the import/require.  The code modifies the Array.prototype via an IFFE (Immediately Invoked Function Expression).
 
 Import/require like so:
@@ -19,7 +19,7 @@ Import/require like so:
 
 You can also add it as a simple script tag if you're not using any module loaders.  The file to load in that case is array-prototype-move.js, which you'll find in the /src folder.
 
-##Syntax
+## Syntax
 The syntax is:
 
     myArray.move(moveFromPosition, moveToPosition)
@@ -46,7 +46,7 @@ Example 2:
 will move Han to the end of the array.
 
 
-##Development
+## Development
 As usual, after cloning the repository, install the required packages like so:
 
     cd array.prototype.move
@@ -59,6 +59,6 @@ To run the test suite.
     npm test
 
 
-##Acknowlegements
+## Acknowlegements
 Taken from Reid's accepted answer from [the most popular stackoverlow post on this topic](http://stackoverflow.com/questions/5306680/move-an-array-element-from-one-array-position-to-another).  All credit goes to Reid.  I've not changed his code at all.
 
